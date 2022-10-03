@@ -1,0 +1,252 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* logo; */
+    .logo {
+        width: 160px;
+    } 
+    /* header    */
+    header {
+        padding: 0px 0px;
+    }
+    /* banner */
+    .banner{
+        padding: 0
+    }
+    .b-img img {
+        margin-bottom: 25px;
+        padding: 0px 25px;
+    }
+    .h-1{
+        margin: 5px 0px 5px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .b-text {
+        padding-right: 30px;
+        padding-bottom: 25px;
+    }
+    .p-2{
+        font-size: 12px;
+    }
+    .btnh{
+        margin-top: 0px;
+       
+    }
+    /* banner :end */
+    /* feature */
+    .feature {
+        padding: 20px 0 50px;
+    }
+    .s-feature {
+        margin-top: 24px;
+        padding: 50px 0 35px;
+    }
+    .s-feature h2 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .s-feature p {
+        line-height: 10px;
+        font-size: 14px;
+    }
+    /* course :start */
+    .course {
+        margin: 0 0 60px;
+    }
+    .s-course {
+        margin: 20px 0 0;
+        padding: 15px 15px 22px
+    }
+    .s-course a {
+        margin: 10px 0;
+    }
+    .s-course h2 {
+        margin: 12px 0 10px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .s-course p {
+        line-height: 15px;
+        font-size: 14px;
+    }
+    /* course :end */
+    /* testimonila :start */
+    .test {
+        margin: 0 0 55px;
+    }
+    .man {
+        width: 35%;
+        margin: 0 0 0 100px;
+    }
+    .title-p p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 9%;
+    }
+    /* testimonila :end */
+    /* footer */
+    .f-p p{
+        text-align: center;
+    }
+    .f-m li a{
+        
+    }
+    .f-m li{
+        text-align: center;
+    }
+    .tg-1{
+        text-align: center;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header :start */
+    .menu ul li a{
+    padding: 0px 17px 10px !important;
+} 
+    .banner{
+        padding: 0px 0;
+    }
+    .h-1{
+        margin: 10px 0px 10px;
+        font-size: 40px;
+        line-height: 55px;
+    
+    }
+    .b-text {
+        padding: 30px 0 40px;
+        padding-right: 90px;
+    }
+    /* banner :end */
+    /* feature */
+    .s-feature {
+        margin-top: 24px;
+    }
+    .feature {
+        padding: 20px 0 65px;
+    }
+    .s-feature h2 {
+        font-size: 18px;
+    }
+    .s-feature p {
+        line-height: 18px;
+    }
+    /* course :start */
+    .course {
+        margin: 0 0 80px;
+    }
+    .s-course {
+        margin: 25px 90px 0;
+    }
+    .s-course p {
+        line-height: 15px;
+    }
+    /* course :end */
+    /* testimonial :start */
+    .test {
+        margin: 0 0 70px;
+    }
+    .title-p p {
+        text-align: center;
+    }
+    .man {
+
+        margin: 0% 35%;
+        width: 30%;
+    }
+    
+    
+    /* testimonial :end */
+    /* fotter */
+    .f-p p{
+        text-align: center;
+    }
+    .f-m li a{
+        
+    }
+    .f-m li{
+        text-align: center;
+    }
+    .tg-1{
+        text-align: center;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header :start */
+    .menu ul li a{
+        padding: 0px 17px 10px !important;
+    } 
+    .banner{
+        padding: 0px 0 40px
+    }
+    .b-text{
+        padding-right: 185px;
+    }
+    .b-img img {
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+    /* banner :end */
+    /* feature */
+    .s-feature {
+        margin-top: 24px;
+    }
+    .feature {
+        padding: 20px 0 65px;
+    }
+    .s-feature h2 {
+        font-size: 18px;
+    }
+    .s-feature p {
+        line-height: 18px;
+    }
+    /* course :start */
+    .course {
+        margin: 0 0 80px;
+    }
+    .s-course {
+        margin: 25px 125px 0;
+    }
+    .s-course p {
+        line-height: 15px;
+    }
+    /* course :end */
+    /* testimonial :start */
+    .man {
+        width: 92%;
+        margin: 0 0 0 10px;
+    }
+    .title-p p {
+        font-size: 14px;
+    }
+ 
+    /* testimonial :end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .b-text{
+        padding-right: 0px;
+    }
+    .h-1{
+        font-size: 38px
+    }
+    /* banner :end */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .b-text {
+        padding-right: 36px;}
+        /* banner :end */
+
+}
+/* Extra extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    
+}

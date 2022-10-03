@@ -1,0 +1,213 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header :start */
+header{
+    background-color: #F0FFF0;
+    padding: 10px 0px;
+}
+.cnav{}
+.logo{
+    width: 198px;
+}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    padding: 0px 17px !important;
+} 
+.menu ul li a:hover{}
+.btn-comon{
+    margin-left: 10px;
+    width: 90px;
+    height: 43px;
+    background: #21B573;
+    border-radius: 90px;
+}
+
+/* header :end */
+/* banner :start */
+.banner{
+    padding: 65px 0;
+    background-color: #F0FFF0;
+}
+.b-text{ 
+    padding-right: 112px;
+}
+.p-1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FD511A;
+}
+.h-1{
+    margin: 10px 0px 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    
+}
+.btnh{
+    margin-top: 15px;
+    padding-top: 8px;
+    width: 153px;
+    height: 43px;
+    background-color: #21B573;
+    border-radius: 60px;
+}
+.btnh:hover{
+    
+}
+.h-1 span{
+  color: #21B573;
+}
+.p-2{}
+.b-img{}
+.b-img img{}
+
+
+/* banner :end */
+/* single feature :start */
+.feature{
+    padding: 40px 0 100px;
+}
+.s-feature{
+    padding: 55px 0 35px;
+    border-radius: 10px;
+    transition: 1s;
+    text-align: center;
+    background-color: #F8FFFB
+    
+    
+    
+    
+}
+.s-feature:hover{
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    
+}
+.sf-img{}
+.sf-img img{}
+.s-feature h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #413960;
+}
+.s-feature p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+/* single feature :end */
+/* course :start */
+.course{
+    margin: 0 0 100px;
+
+}
+.head{
+
+}
+.head h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+    line-height: 30px;
+}
+.s-course{
+    margin: 50px 0 0;
+    padding: 25px 20px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.c-1{
+    
+}
+.c-img{}
+.c-img img{
+    width: 100%;
+    border-radius: 11px;
+    
+}
+.s-course h2{
+    margin: 20px 0 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.s-course p{
+    line-height: 24px;}
+.s-course a{
+    margin: 20px 0;
+    width: 137px;
+    height: 35px;
+    padding: 4px 10px;
+    color: #413960;
+    background: #21B573;
+    border-radius: 20px;
+    }
+.btnh-1{}
+.footer{}
+.cld-1{
+    
+}
+.d-1{
+    font-size: 12px;
+}
+
+.view{
+
+}
+.pp-1{
+    font-size: 12px;
+}
+
+/* course :end */
+/* testimonial :start */
+.test{
+    margin: 0 0 100px;
+
+}
+.title{}
+.title h1{
+    text-align: center;
+}
+.text-img{
+    margin: 40px 0 0;
+}
+.man{
+    width: 75%;
+    margin: 0 0 0 33px; 
+}
+.man img{
+    width: 100%;
+}
+.title-p{}
+.title-p p{}
+
+/* testimonial :end */
+/* footer :start */
+.f-main{
+    background: #282531;
+    color: #FFFFFF;
+    padding: 50px 0 100px;
+}
+.f-p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.tg-1{}
+.f-p p{}
+.f-m{}
+.f-m li{}
+.f-m li a{
+    text-decoration: none;
+}
+/* footer :end */
